@@ -1,3 +1,15 @@
+# This is my project for Snap Academy:
+
+I built a word scramble game using the help of various resources from Google, Youtube, ChatGPT, and StackOverflow.
+
+My reason for choosing this game was because I really enjoy puzzle style games, like chess, and hangman and play them frequently. 
+
+
+
+
+
+
+
 # SEA Stage 2 - Data Catalog Project
 
 This is the instructions, requirements, and starter for stage two of the Snap Engineering Academy application process.
