@@ -1,3 +1,5 @@
+// Made ChatGPT write this data, it includes data of 50 words with hints.
+
 const words = [
     { word: "apple", hint: "Common fruit." },
     { word: "banana", hint: "Yellow fruit." },

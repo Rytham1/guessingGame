@@ -1,35 +1,49 @@
 <!DOCTYPE html>
 <html>
 
+<!-- Provided in the beginning -->
 <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles">
+    <title> Wordle | Home</title>
+    <meta name="description" content="Word Scramble game">
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="scripts.js" defer></script>
-    <script type="text/javascript" src="words.js" defer></script>
+    <script type="text/javascript" src="wordsdata.js" defer></script>
 </head>
 
 
 <body>
+    <!-- using div for easier css styling -->
+
     <div class = "container">
-        <h2> Word Scramble </h2>
+        <h2> Beginner Word Scrambler Game </h2>
         <div class = "content">
-            <p class = "word"> enaxpinos </p>
 
-            <div class = "details">
-                <p class="hint"> Hint: <span> The process of increase or grow</p>
-                <p class="time"> Time Left: <span> <bold> 45 </bold>  seconds</span> </p>
-            </div>
+                <!-- Displaying streaks on top right -->
+                <div class = "streak">
+                    <p class = "streak-count"> Streak:  <span> <b id="streak-btn">0</b> </span> </p>
+                </div>
+                
+                <!-- Displaying the word to be unscrambled -->
+                <p class = "word"> Click Skip </p>
 
-            <input type = "text" placeholder = "Enter your answer "/>
-            <div class = "buttons">
-                <button class = "check-word"> Submit </button>
-                <button class = "refresh-word"> Skip </button>
-            </div>
+                <!-- Displaying hints and time left -->
+                <div class="details">
+                    <p class="hint">Hint: <span>This will start the game </span></p>
+                    <p class="time">Time Left: <span><b id="time-value">45</b> seconds</span></p>
+                </div>
+
+                <!-- Input field for user to enter their answer -->
+                <input type = "text" placeholder = "Enter your answer "/>
+
+
+                <!-- Buttons for user to submit or skip -->
+                <div class = "buttons">
+                    <button class = "check-word"> Submit </button>
+                    <button class = "refresh-word"> Skip </button>
+                </div>
+
         </div>
     </div>
-
-
 </body>
 
 </html>
