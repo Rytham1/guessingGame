@@ -5,35 +5,31 @@
     <title>LA TV Shows | Home</title>
     <meta name="description" content="A Catalog of Shows Set in Los Angeles">
     <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="scripts.js" defer></script>
+    <script type="text/javascript" src="words.js" defer></script>
 </head>
 
+
 <body>
-    <header class="main-header">
-        <h1 class="title">LA TV Shows</h1>
-    </header>
-    <div id="card-container">
-        
-    </div>
-    <div class="card" style="display: none;">
-        <div class="card-content">
-            <h2>TV Show Title</h2>
-            <img src="" alt="TV Show Poster">
-            <ul>
-                <li>Bullet Point 1</li>
-                <li>Bullet Point 2</li>
-                <li>Bullet Point 3</li>
-            </ul>
+    <div class = "container">
+        <h2> Word Scramble </h2>
+        <div class = "content">
+            <p class = "word"> enaxpinos </p>
+
+            <div class = "details">
+                <p class="hint"> Hint: <span> The process of increase or grow</p>
+                <p class="time"> Time Left: <span> <bold> 45 </bold>  seconds</span> </p>
+            </div>
+
+            <input type = "text" placeholder = "Enter your answer "/>
+            <div class = "buttons">
+                <button class = "check-word"> Submit </button>
+                <button class = "refresh-word"> Skip </button>
+            </div>
         </div>
     </div>
-    <div class="footer">
-        <button onclick="quoteAlert();">
-            Get A Quote!
-        </button>
-        <button onclick="removeLastCard();">
-            Remove A Card!
-        </button>
-    </div>
+
+
 </body>
 
 </html>
