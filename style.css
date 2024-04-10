@@ -2,8 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /* A lot of this css code was just playing around, googling and learning from tutorials */ 
-
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #ff0000;
+  /* background-image:
+    linear-gradient(45deg, 
+      rgba(255,255,255,0.5) 0%,
+      rgba(255,255,255,0.5) 50%,
+      rgba(255,255,255,0) 50%,
+      rgba(255,255,255,0) 100%
+    ),
+    linear-gradient(90deg, 
+      rgba(255,255,255,0.5) 0%,
+      rgba(255,255,255,0.5) 50%,
+      rgba(255,255,255,0) 50%,
+      rgba(255,255,255,0) 100%
+    ); */
+}
 .streak {
   position: fixed;
   top: 20px;
@@ -24,33 +49,6 @@
   background-color: #2c52ed;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-body{
-  display: flex;
-  padding: 0 10px;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: #5372F0;
-  /* background-image:
-    linear-gradient(45deg, 
-      rgba(255,255,255,0.5) 0%,
-      rgba(255,255,255,0.5) 50%,
-      rgba(255,255,255,0) 50%,
-      rgba(255,255,255,0) 100%
-    ),
-    linear-gradient(90deg, 
-      rgba(255,255,255,0.5) 0%,
-      rgba(255,255,255,0.5) 50%,
-      rgba(255,255,255,0) 50%,
-      rgba(255,255,255,0) 100%
-    ); */
-}
 .container{
   width: 480px;
   border-radius: 7px;
