@@ -69,6 +69,7 @@ const updateBackgroundColor = () => {
 updateBackgroundColor(); 
 
 
+// Increment information
 const incrementStreak = () => {
   streakCount++;
   streakDisplay.innerText = `Streak: ${streakCount}`; // Update the streak count in the HTML
